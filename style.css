@@ -1,0 +1,192 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Cairo&family=Ubuntu&display=swap');
+
+ 
+  
+ 
+  body {
+    background-color: #322653;
+    overflow-x: hidden;
+    /* height: 2000px; */
+     
+  }
+   .navbar{
+
+    background-color: #8062D6;
+    width: 100%;
+   }
+  #svg{
+    width:70px;
+    height:70px;
+    color: white;
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .nav-link {
+    font-size: 18px;
+     
+  }
+
+  .offcanvas{
+    background-color: #8062D6;
+  }
+  .navbar-toggler {
+    padding: 10px;
+    
+  }
+
+  @media (max-width:300px){
+    .navbar-brand {
+      font-size: 20px;
+    }
+    #svg{
+      
+      width:40px;
+      height:40px;
+      color: white;
+    }
+
+  }
+  @media (max-width:200px){
+     .navbar{ 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     }
+     .nav-link {
+      font-size: 15px;
+       
+    }
+    .offcanvas-header {
+      position: relative;
+      font-size: 15px;
+      right:62px;
+    }
+    #svg{
+      width:20px;
+      height:20px;
+      color: white;
+       
+    }
+     
+    
+  }
+
+  #svg2 {
+    width:420px;
+     
+  }
+   
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+  }
+  .container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #titre1{
+    font-size: 37px;
+    font-family: amiri;
+    direction: rtl;
+  }
+   #titre2 {
+      font-size:26px ;
+      font-family: amiri;
+   }
+   .btn-work{
+    font-size:25px ;
+    color: white;
+  }
+
+   .right{
+    color:white;
+   }
+   .container-fliud{
+    margin-top:100px ;
+    padding: 20px  0 40px 0;
+   }
+   @media (max-width:550px){
+      #svg2 {
+        width:300px;
+      }
+      .row{
+        flex-direction: column;
+      }
+      #titre1{
+        font-size: 28px;
+        font-family: amiri;
+      }
+      .btn-work{
+        font-size:15px ;
+        color: white;
+      }
+   }
+   @media (max-width:350px){
+    #svg2 {
+      width:280px;
+    }
+    .row{
+      flex-direction: column;
+    }
+    #titre1{
+      font-size: 18px;
+      font-family: amiri;
+    }
+ }
+ #about-us{
+  padding: 0px 0 40px 0;
+ }
+
+ .col{
+  color: white  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  direction: rtl;
+  padding: 5%;
+  min-width: 320px;
+  font-family:Cairo ;
+   
+ }
+ .Myrow{
+  background-color: #8062D6;
+  box-shadow: 0 4px 8px rgba(128, 98, 214, 0.1), 0 6px 20px rgba(128, 98, 214, 0.2);
+ }
+   
+ .iconS1{
+  font-size:70px ;
+ }
+ @media (max-width:580px) {
+  .col{
+    width: 100px;
+   }
+   .iconS1{
+    font-size:40px ;
+   }
+   .col h2 {
+    font-size: 20px;
+   }
+   .col p {
+    font-size: 15px;
+   }
+   
+
+ }
+
+ .Footer{
+  background-color:#322653;
+  
+ }
+.color{
+  color:white
+}
+ 
